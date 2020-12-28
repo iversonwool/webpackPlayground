@@ -1,7 +1,7 @@
 module.exports = {
   // entry: './src/main.js',
-  entry: './src/main.css',
-
+  // entry: './src/main.css',
+  entry: './src/index.js',
   mode: 'none',
   module: {
     rules: [
