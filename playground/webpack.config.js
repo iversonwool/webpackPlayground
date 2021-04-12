@@ -1,7 +1,14 @@
+const path = require('path')
+console.log('---__dirname', __dirname)
+
 module.exports = {
   // entry: './src/main.js',
   // entry: './src/main.css',
   entry: './src/index.js',
+  output: {
+    filename: 'bundle.js',
+    path: path.resolve(__dirname, 'dist')
+  },
   mode: 'none',
   module: {
     rules: [
